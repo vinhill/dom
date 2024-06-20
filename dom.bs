@@ -2038,11 +2038,11 @@ an optional <var>reason</var>:
 
  <li><p><a for=set>Empty</a> <var>signal</var>'s <a for=AbortSignal>abort algorithms</a>.
 
- <li><p>[=Fire an event=] named {{AbortSignal/abort}} at <var>signal</var>.
-
  <li><p><a for=set>For each</a> <var>dependentSignal</var> of <var>signal</var>'s
  [=AbortSignal/dependent signals=], [=AbortSignal/signal abort=] on <var>dependentSignal</var> with
  <var>signal</var>'s [=AbortSignal/abort reason=].
+
+ <li><p>[=Fire an event=] named {{AbortSignal/abort}} at <var>signal</var>.
 </ol>
 </div>
 
